@@ -2,6 +2,8 @@ body{
     background-color: #F8F2ED;
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    height: 100vh;
 }
 
 section{
@@ -19,4 +21,53 @@ section{
     font-weight: 600;
     border: 2px solid #6bf3f3;
     border-radius: 10px;
+}
+footer{
+    position: absolute;
+    display: flex;
+    background-color: #AB8EBF;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    bottom:0;
+}
+h2{
+    color: white;
+    font-size: 1.2rem;
+}
+
+/* header{
+    display: flex;    
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1%;
+    column-gap: 200%;
+} */
+
+li{
+   height: 30px;
+   list-style: none;
+   font-size: 1rem;
+   padding-right: 39px;
+   font-weight: 500;
+   color: #c8a8dd;
+   border-right: 2px solid #c8a8dd;
+}
+
+ul{
+    display: flex;
+    column-gap: 40px;
+}
+.logo-header{
+    width:200px;
+    position: flex;
+}
+
+nav{
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+position: center;
 }
